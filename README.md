@@ -21,9 +21,9 @@ source install/setup.bash
 ~~~
 export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
 export FASTRTPS_DEFAULT_PROFILES_FILE={workspace}/src/profiles.xml
-export WAYPOINTS_PATH={workspace}/src/turtlesim/data/waypoints.json
+export WAYPOINTS_PATH={workspace}/src/multi-amr-lpp-sim/turtlesim/data/waypoints.json
 ~~~
-2. Make your global path (`workspace`/src/turtlesim/data/waypoints.json)
+2. Make your global path (`workspace`/src/multi-amr-lpp-sim/turtlesim/data/waypoints.json)
 ~~~
 {
     "turtle1": [
