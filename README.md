@@ -9,6 +9,7 @@ git clone https://github.com/cobaal/multi-amr-lpp-sim.git
 ~~~
 2. Build (insert your `workspace`)
 ~~~
+apt install nlohmann-json3-dev
 cd {workspace}
 colcon build
 colcon build --allow-overriding turtlesim 
